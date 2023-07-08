@@ -1,3 +1,8 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import datetime
+
 def generate_payoff_independent(price_range, range_day, options, stock_price):
   '''
   Generates a simple payoff when  provided with a list of options
